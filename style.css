@@ -1,0 +1,106 @@
+
+img-portfolio {
+    float: left;
+    margin-top: -100px;
+}
+h1 {
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 115px;
+    color: black;
+    background: teal;
+    width: 20%
+}
+h2 {
+    background: #4AAAA5;
+    height: 40px;
+}
+
+section {
+    width: 60%;
+    position: relative;
+    float: right;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    float: right;
+    margin-right: 30px
+}
+body {
+    background-image: url(../images/canadian-dollar.png);
+    padding: 0px;
+    margin: 0px;
+}
+input[type=text], select, textarea  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]  {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=sumbit]:hover  {
+    background-color: white;
+}
+.container  {
+    border-radius: 5px;
+    background-color: #E2FC75;
+    padding: 20px;
+    width:  70vw;
+    margin-left: 10%;
+    height: 100vh;
+    background: transparent;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4AAAA5;
+}
+.images {
+    width: 100%;
+    display: float;
+}
+.content  {
+    width: 50%;
+    float: left;
+}
+ul {
+    list-style: none;
+}
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 640px) {
+    header { 
+        position: fixed;
+        z-index: 1;
+    }
+    .about-me {
+        margin-top: 100px;
+        min-height: 550px;
+    }
+    .container {
+        margin-top: 100px;
+        min-height: 900px;
+    }
